@@ -4,8 +4,7 @@ version: 0.4.2+2
 homepage: https://github.com/romatroskin/social_share_plugin/tree/master/packages/social_share_plugin
 
 environment:
-    sdk: ">=3.0.0 <4.0.0"
-    flutter: ">=1.20.0"
+    sdk: ^3.5.3
 
 flutter:
     plugin:
@@ -18,7 +17,8 @@ flutter:
 dependencies:
     flutter:
         sdk: flutter
-    social_share_plugin_android: ^0.1.0+1
+    social_share_plugin_android:
+        path: ../social_share_plugin_android
     social_share_plugin_ios: ^0.1.0+1
     social_share_plugin_platform_interface: ^0.1.0+1
 
@@ -27,4 +27,4 @@ dev_dependencies:
         sdk: flutter
     mocktail: ^0.3.0
     plugin_platform_interface: ^2.0.0
-    very_good_analysis: ^5.0.0
+    very_good_analysis: ^6.0.0
